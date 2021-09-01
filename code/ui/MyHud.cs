@@ -2,7 +2,7 @@ using Sandbox;
 using Sandbox.UI;
 
 
-    public partial class HUD : HudEntity<RootPanel>
+    public partial class MyHUD : HudEntity<RootPanel>
     {
         public MyHUD()
         {

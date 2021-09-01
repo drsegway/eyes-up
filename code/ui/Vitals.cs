@@ -4,9 +4,15 @@ using Sandbox.UI.Construct;
 
 public partial class Vitals : Panel
 {   
-    StyleSheet.Load("/ui/Vitals.scss");
+    public Vitals()
+    {
+        StyleSheet.Load("/ui/Vitals.scss");
 
-    Add.Panel("healthBack");
+        Add.Panel("healthBack");
+
+
+    }
+    
 }
 
     
