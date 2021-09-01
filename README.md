@@ -1,8 +1,8 @@
-# Eyes Up
+# sbox-minimal
 
- # Description
- 
- You shoot people and do gamer things
+![Screenshot](https://files.facepunch.com/garry/8fc638dc-2c62-4ed6-b20a-69c2c5342a9c.jpg)
+
+ Minimal gamemode for s&box.
  
  # Installing
  
