@@ -45,16 +45,9 @@ namespace MinimalExample
 				Log.Info( "My Gamemode Has Created Clientside!" );
 			}
 		}
-		[Event.Hotload]
+		
 
-		public void HotLoadUpdate()
-		{
-
-			if ( !IsClient ) return;
-			MyHUD?.Delete();
-			MyHUD = new MyHUD();
-
-		}
+		
 
 		/// <summary>
 		/// A client has joined the server. Make them a pawn to play with
