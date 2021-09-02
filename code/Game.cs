@@ -58,6 +58,8 @@ public partial class EyesUp : Sandbox.Game
 		var caller = ConsoleSystem.Caller.Pawn;
 		if ( caller == null ) return;
 
+		
+
 		var tr = Trace.Ray( caller.EyePos, caller.EyePos + caller.EyeRot.Forward * 50000 )
 				.UseHitboxes()
 				.Ignore( caller )
@@ -74,4 +76,23 @@ public partial class EyesUp : Sandbox.Game
 			
 		}
 	}
+
+	[ServerCmd("testentspawn")]
+
+	public static void TestEntSpawn()
+	{
+		var caller = ConsoleSystem.Caller.Pawn;
+		if ( caller == null ) return;
+
+		new HealthUsable()
+		{
+			Position = caller.Position + caller.Rotation.Forward * 50
+		};
+
+
+	}
+
+	
+
+	
 }
