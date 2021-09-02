@@ -1,10 +1,22 @@
 .healthBack {
-
     position: absolute;
     left: 50px;
     bottom: 50px;
     padding: 5px;
     background-color: #323232;
+    box-shadow: 0 0 5px black;
+}
+
+.healthIconBack {
+    margin-right: 5px;
+    align-items: center;
+}
+
+.healthIcon {
+    color: #e74c3c;
+    text-shadow: 0 0 1px black;
+    font-family: MaterialIcons;
+    font-size: 17px;
 }
 
 .healthBarBack {
@@ -13,15 +25,13 @@
 }
 
 .healthBar {
-
-    background-color: maroon;
+    background-color: #e74c3c;
 }
 
-.healthText{
-    
-    color: indianred;
+.healthText {
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #e74c3c;
     text-shadow: 0 0 1px black;
     font-weight: bold;
-
-
 }
