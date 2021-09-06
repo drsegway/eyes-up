@@ -7,6 +7,8 @@ public partial class MyHUD : HudEntity<RootPanel>
 	{
 		if ( !IsClient ) return;
 
-		RootPanel.AddChild<Vitals>();
+		
+		RootPanel.AddChild<BasicMenu>();
+		RootPanel.AddChild<Bleeding>();
 	}
 }
